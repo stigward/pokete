@@ -1195,10 +1195,13 @@ Do you want to continue?", int(width * 2 / 3))):
             sys.exit()
     return VERSION != ver
 
+def setup():
+    os.system("./setup.sh")
 
 def main():
     """Main function"""
     os.system("")
+    setup()
     timing = threading.Thread(target=timer.time_threat, daemon=True)
     recognising = threading.Thread(target=recogniser, daemon=True)
     autosaving = threading.Thread(target=autosave, daemon=True)
