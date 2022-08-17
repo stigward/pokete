@@ -5,7 +5,9 @@ Feel free to contribute what ever you want to this game
 New Pokete contributions are especially welcome
 For this see the comments in the definations area
 You can contribute here: https://github.com/lxgr-linux/pokete
-Thanks to MaFeLP for your code review and your great feedback"""
+Thanks to MaFeLP for your code review and your great feedback
+Cloned to make additional mods and changes for fun"
+"""
 
 import time
 import os
